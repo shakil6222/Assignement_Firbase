@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    tools:context=".UserDetails_Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Details"
+        android:textSize="40sp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,SpUsage" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        app:cardCornerRadius="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/github"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:layout_height="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter Name"
+            android:maxLength="12"
+            android:inputType="phone"
+            android:id="@+id/enterName_EditText"
+            android:layout_height="match_parent"
+            tools:ignore="Autofill,HardcodedText,TextFields"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:layout_height="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter Phone Number"
+            android:maxLength="12"
+            android:inputType="phone"
+            android:id="@+id/enterPhoneNum_EditText"
+            android:layout_height="match_parent"
+            tools:ignore="Autofill,HardcodedText,TextFields"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:layout_height="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter Email Address"
+            android:maxLength="12"
+            android:inputType="phone"
+            android:id="@+id/emailAddress_EditText"
+            android:layout_height="match_parent"
+            tools:ignore="Autofill,HardcodedText,TextFields"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:layout_height="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter Phone Number"
+            android:maxLength="12"
+            android:inputType="phone"
+            android:id="@+id/custemerPhoneNum_EditText"
+            android:layout_height="match_parent"
+            tools:ignore="Autofill,HardcodedText,TextFields"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        app:passwordToggleEnabled="true"
+        android:layout_height="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Verify Number"
+            android:maxLength="6"
+            android:inputType="numberPassword"
+            android:id="@+id/custemerVeryNum_EditText"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:backgroundTint="#0F5012"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

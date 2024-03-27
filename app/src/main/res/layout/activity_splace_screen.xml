@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Splace_Screen">
+
+    <ImageView
+        android:id="@+id/twiter_image_splaceScreen"
+        android:layout_width="100dp"
+       android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/twiter_splacestreen"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#C6711A"
+        android:layout_marginTop="20dp"
+        android:text="Firbase_Auth" />
+
+</LinearLayout>

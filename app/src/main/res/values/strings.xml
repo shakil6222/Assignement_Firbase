@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignement_Firbase</string>
+    <string name="the_best_from_our_app">the best from our app</string>
+    <string name="please_log_in_to_continue_and_gate">Please log in to continue and gate</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">LOGIN</string>
+    <string name="login_or_sign_up">Login or Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "77414440759",
+    "firebase_url": "https://assignement-firbase-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "assignement-firbase",
+    "storage_bucket": "assignement-firbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77414440759:android:294cb92cda2787364b04b2",
+        "android_client_info": {
+          "package_name": "com.example.assignement_firbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77414440759-k5bgpm0jvhldc7od2a77d2gcq3t1vru8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assignement_firbase",
+            "certificate_hash": "0b40864023f5fbd605030e544d1c39144620694b"
+          }
+        },
+        {
+          "client_id": "77414440759-io8s5gplqv60q7bcbfrmmdd72ccrigao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd_NWIQXVBGiaedd-dZ2qaPuOXbUGWLqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77414440759-io8s5gplqv60q7bcbfrmmdd72ccrigao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
